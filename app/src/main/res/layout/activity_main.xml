@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Azul"
+            android:onClick="onClick"
+            />
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vermelho"
+            android:onClick="onClick"
+            />
+
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verde"
+            android:onClick="onClick"
+            />
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/conteudoFragmento"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </FrameLayout>
+
+
+    <!-- <fragment
+        android:id="@+id/fragAzul"
+        android:name="com.example.hugov.androiddesign.FragmentoAzul"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        tools:layout="@layout/fragment_fragmento_azul">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragVermelho"
+        android:name="com.example.hugov.androiddesign.FragmentoRed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_fragmento_red">
+
+    </fragment> -->
+
+
+</LinearLayout>
+
+
